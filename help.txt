@@ -1,0 +1,26 @@
+document.write("Produto: "+mercadoria[contador]+"<br>",
+        "Total Bruto: "+totalBruto[contador]+"<br>",
+        "Total em Impostos: "+totalImposto[contador]+"<br>", 
+        "Total Líquido: "+totalLiquido[contador]+"<br> <hr>")
+
+
+
+
+
+        document.write(`Produto: ${mercadoria[contador]} <br>
+        Total Bruto: ${totalBruto[contador]} <br>
+        Total em Impostos: ${totalImposto[contador] <br>
+        Total Líquido: ${totalLiquido[contador]} <br> <hr>`)
+
+        
+
+        document.write(`Produto: ${mercadoria[contador]} <br>
+      Total Bruto: R$ ${totalBruto[contador]} <br>
+      Total em Impostos: R$ ${totalImposto[contador]} <br>
+      Total Líquido: R$${totalLiquido[contador]} <br> <hr>`)
+
+
+
+
+      //for (let contador = 0; contador <= max; contador++) {}
+  //
